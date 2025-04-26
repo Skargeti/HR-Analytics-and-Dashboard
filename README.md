@@ -41,9 +41,7 @@ The dataset is structured under the `hr_analytics` table with the following fiel
 
 ## 🧐 SQL Analysis
 
-Advanced SQL queries were written to deeply explore the HR dataset.  
-The analysis includes calculating departmental salary trends, performance vs satisfaction ratings, identifying overtime patterns, promotions over the years, and employee segmentation based on experience.  
-Queries range from simple aggregations to complex window functions and conditional logic, ensuring a rich, data-driven foundation for visualization.
+Advanced SQL queries were written to deeply explore the HR dataset. The analysis includes calculating departmental salary trends, performance vs satisfaction ratings, identifying overtime patterns, promotions over the years, and employee segmentation based on experience. Queries range from simple aggregations to complex window functions and conditional logic, ensuring a rich, data-driven foundation for visualization.
 
 ---
 
