@@ -52,9 +52,12 @@ Queries range from simple aggregations to complex window functions and condition
 The insights were transformed into a dynamic two-page Power BI dashboard:
 
 - **Executive Dashboard**
-  - Key KPIs (Total Employees, Average Salary, Avg Satisfaction, Avg Performance Rating)
-  - Department-wise and Experience Band breakdowns
-  - Salary Distribution and Overtime Analysis
+  
+  📊 Overall Workforce Snapshot: Total headcount, department-wise distribution, and gender diversity.
+  🌍 Diversity Metrics: Gender and ethnicity distribution to support D&I initiatives.
+  📈 Recruitment Performance: Time-to-hire, offer acceptance rates, and new joiner trends.
+  🚀 High-Level KPIs: Quick, actionable insights for leadership to drive strategic HR decisions.
+  🛠️ Interactive Filters: Easily drill down by department, location, job role, or employee status.
 
 
 The dashboard is designed to enable HR executives and decision-makers to quickly spot trends, discover pain points, and make informed, strategic decisions.
