@@ -1,6 +1,6 @@
 # 📊 HR Analytics Project
 
-![](https://news.blr.com/app/uploads/sites/3/2018/03/LDA_022817-1.jpg)
+![]("C:\Users\Skarg\Downloads\campaign-creators-gMsnXqILjp4-unsplash.jpg")
 
 ---
 
@@ -51,15 +51,11 @@ Queries range from simple aggregations to complex window functions and condition
 
 The insights were transformed into a dynamic two-page Power BI dashboard:
 
-- **Page 1: Executive Summary**
+- **Executive Dashboard**
   - Key KPIs (Total Employees, Average Salary, Avg Satisfaction, Avg Performance Rating)
   - Department-wise and Experience Band breakdowns
   - Salary Distribution and Overtime Analysis
 
-- **Page 2: Geographic and Customer Insights**
-  - Map visualizations showing employee distribution across working locations
-  - Promotions analysis over time and by department
-  - Filtering and interaction capabilities for deeper exploration
 
 The dashboard is designed to enable HR executives and decision-makers to quickly spot trends, discover pain points, and make informed, strategic decisions.
 
