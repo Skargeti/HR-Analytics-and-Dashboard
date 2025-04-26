@@ -1,4 +1,4 @@
-1.	How many employees are there in total?
+--1	How many employees are there in total?
 
 CREATE VIEW Total_employees AS 
 SELECT COUNT(employee_id) AS total_employees
@@ -7,7 +7,7 @@ FROM hr_analytics;
 SELECT * FROM Total_employees
 
 
-2.	Count of employees by gender
+--2	Count of employees by gender
 
 CREATE VIEW emp_gender AS 
 SELECT gender, COUNT(*) AS count
@@ -17,7 +17,7 @@ GROUP BY gender;
 SELECT * FROM emp_gender
 
 
-3.	State-wise employee count
+--3	State-wise employee count
 
 CREATE VIEW emp_state AS 
 SELECT state, COUNT(*) AS employee_count
@@ -27,7 +27,7 @@ ORDER BY employee_count DESC;
 
 SELECT * FROM emp_state
 
-4.	Employee work location
+--4	Employee work location
 
 CREATE VIEW emp_location AS 
 SELECT work_location_type,
@@ -38,7 +38,7 @@ GROUP BY work_location_type;
 SELECT * FROM emp_location
 
 
-5.	Number and avg salary by department
+--5	Number and avg salary by department
 
 CREATE VIEW avg_salary AS 
 SELECT 
@@ -52,7 +52,7 @@ ORDER BY department;
 SELECT * FROM avg_salary
 
 
-6.	Avg performance and avg satisfaction rating by deparment
+--6	Avg performance and avg satisfaction rating by deparment
 
 CREATE VIEW avg_rating  AS
 SELECT 
@@ -66,7 +66,7 @@ ORDER BY department;
 SELECT * FROM avg_rating  
 
 
-7.	Top 10 highest paid employees
+--7	Top 10 highest paid employees
 
 CREATE VIEW top10_emp AS 
 SELECT employee_id, full_name, department, annual_salary_lpa, job_role
@@ -77,7 +77,7 @@ LIMIT 10;
 SELECT * FROM top10_emp
 
 
-8.	count of promotions by year and department
+--8	count of promotions by year and department
 
 CREATE VIEW promo_count AS 
 SELECT 
@@ -92,7 +92,7 @@ ORDER BY last_promotion_year, department;
 SELECT * FROM promo_count
 
 
-9.	Are there any employees working overtime with below average satisfaction?
+--9	Are there any employees working overtime with below average satisfaction?
 
 CREATE VIEW overtime_emp AS 
 SELECT employee_id, full_name, department, satisfaction_rating
@@ -105,7 +105,7 @@ WHERE overtime = 'Yes'
 
 SELECT * FROM overtime_emp
 
-10.	Experience bands with average salary and satisfaction
+--10	Experience bands with average salary and satisfaction
 
 CREATE VIEW exp_band AS 
 SELECT 
