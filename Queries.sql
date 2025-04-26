@@ -1,4 +1,4 @@
---1	How many employees are there in total?
+--1How many employees are there in total?
 
 CREATE VIEW Total_employees AS 
 SELECT COUNT(employee_id) AS total_employees
